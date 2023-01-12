@@ -26,9 +26,15 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
         new file:   blogapp/urls.py
         new file:   blogapp/wsgi.py
         new file:   manage.py
-        
+
 
 #### 01.4 181. Posts: Building model
+
+        new file:   app/migrations/0001_initial.py
+        modified:   app/models.py
+        modified:   blogapp/settings.py
+
+        
 #### 01.5 182. Structuring templates
 #### 01.6 183. Posts: views and templates
 #### 01.7 184. Posts: URLs and viewing posts
