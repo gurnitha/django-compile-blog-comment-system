@@ -141,8 +141,12 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
         modified:   app/templates/app/post.html
         modified:   app/views.py
 
-        
+
 #### 01.14 191. Fixing the submit issue on refresh
+
+        modified:   app/views.py
+
+        
 #### 01.15 192. Building replies
 #### 01.16 193. Allowing users to leave a reply
 #### 01.17 194. Rendering replies
