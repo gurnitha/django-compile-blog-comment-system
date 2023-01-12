@@ -163,7 +163,17 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
         NEXT: to replace the codes using my own codes
 
         
-
 #### 01.16 193. Allowing users to leave a reply
+
+        modified:   app/migrations/0001_initial.py
+        new file:   app/migrations/0002_tag_post_tags.py
+        new file:   app/migrations/0003_post_view_count.py
+        new file:   app/migrations/0004_comments.py
+        new file:   app/migrations/0005_comments_parent.py
+        new file:   app/migrations/0006_alter_post_tags.py
+        modified:   app/templates/app/post.html
+        modified:   app/views.py
+
+        
 #### 01.17 194. Rendering replies
 #### 01.18 195. Section Summary
