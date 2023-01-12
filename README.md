@@ -148,6 +148,22 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
 
         
 #### 01.15 192. Building replies
+
+        modified:   app/models.py
+        new file:   app/static/app/url.js
+        modified:   templates/base.html
+
+        Note:
+
+        1. After submiting the form:
+
+        Forbidden (403)
+        CSRF verification failed. Request aborted.
+
+        NEXT: to replace the codes using my own codes
+
+        
+
 #### 01.16 193. Allowing users to leave a reply
 #### 01.17 194. Rendering replies
 #### 01.18 195. Section Summary
