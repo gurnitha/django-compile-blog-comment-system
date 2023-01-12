@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}Blog | The Super Blog{% endblock title %}
+{% load static %}
 
 {% block content %}
       <div class="container">
@@ -91,7 +92,7 @@
                     <div class="user-comment">
                       <div class="author">
                         <div class="profile-pic">
-                          <img src="../images/author.svg" alt="" />
+                          <img src="{% static 'images/author.svg' %}" alt="" />
                         </div>
                         <div class="details">
                           <p>{{comment.name}}</p>
@@ -133,23 +134,24 @@
 
                         </div>
                         
+                        {% for reply in comment.replies.all %}
                         <div class="public-reply">
                           <div class="author">
                             <div class="profile-pic">
-                              <img src="../images/author.svg" alt="" />
+                              <img src="{% static 'images/author.svg' %}" alt="" />
                             </div>
                             <div class="details">
-                              <p>Author name</p>
-                              <small>June 20, 2022</small>
+                              <p>{{reply.name}}</p>
+                              <small>{{reply.date|date}}</small>
                             </div>
                           </div>
                           <div class="comment">
                             <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Tempora magnam minima harum, dignissimos
+                              {{reply.content}}
                             </p>
                           </div>
                         </div>
+                        {% endfor %}
 
                         
 

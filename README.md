@@ -174,6 +174,11 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
         modified:   app/templates/app/post.html
         modified:   app/views.py
 
-        
+
 #### 01.17 194. Rendering replies
+
+        new file:   app/static/images/author.svg
+        modified:   app/templates/app/post.html
+
+        
 #### 01.18 195. Section Summary
