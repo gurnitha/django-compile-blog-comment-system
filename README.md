@@ -48,6 +48,14 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
 
 
 #### 01.7 184. Posts: URLs and viewing posts
+
+        modified:   app/admin.py
+        new file:   app/urls.py
+        modified:   blogapp/settings.py
+        modified:   blogapp/urls.py
+        new file:   upload/images/post.png
+
+        
 #### 01.8 185. Configuring static files and render post
 #### 01.9 186. Building the home page
 #### 01.10 187. Building Tags
