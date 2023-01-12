@@ -112,8 +112,18 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
             {% endfor %}
         </div>
 
-        
+
 #### 01.11 188. Recording views
+
+        modified:   app/migrations/0002_tag_post_tags.py
+        new file:   app/migrations/0003_post_view_count.py
+        new file:   app/migrations/0004_alter_post_tags.py
+        modified:   app/models.py
+        modified:   app/templates/app/index.html
+        modified:   app/templates/app/post.html
+        modified:   app/views.py
+
+        
 #### 01.12 189. Allowing users to comment
 #### 01.13 190. Rendering comments
 #### 01.14 191. Fixing the submit issue on refresh
