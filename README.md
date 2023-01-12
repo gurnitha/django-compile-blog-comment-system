@@ -70,8 +70,49 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
         modified:   app/urls.py
         modified:   app/views.py
 
-        
+
 #### 01.10 187. Building Tags
+
+        modified:   app/admin.py
+        new file:   app/migrations/0002_tag_post_tags.py
+        modified:   app/models.py
+        modified:   app/templates/app/post.html
+
+        Activities:
+
+        1. Build Tag model
+        2. Add relationship with Post model + related_name
+        3. Run and applay migrations
+        4. Register Tag to admin
+        5. Add some tag in admin
+        6. Open post + select tag/s
+        7. Render tags to post.html
+
+        NOTE: just a basics (not complete the post page yet)
+
+        # IN THE TERMINAL
+
+        F:\_workspace\blog\blog-comment-a-comment (main)
+        (venv3941) λ REM: open shell
+
+        ...
+        >>> from app.blog.models import Post, Tag
+        >>> posts = Post.objects.all()
+        # show first post --> [0]
+        >>> posts[0]
+        <Post: Post object (1)>
+        # show all tags belongs to post1
+        >>> posts[0].tags.all()
+        <QuerySet [<Tag: tag1>, <Tag: tag2>]>
+        IN THE POST PAGE
+
+        <div class="blog-tags">
+            {% for tag in post.tags.all %}
+              <div class="tag">{{tag.name}}</div>
+            {% endfor %}
+        </div>
+
+        
 #### 01.11 188. Recording views
 #### 01.12 189. Allowing users to comment
 #### 01.13 190. Rendering comments
