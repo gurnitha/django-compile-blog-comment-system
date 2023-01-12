@@ -123,8 +123,19 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
         modified:   app/templates/app/post.html
         modified:   app/views.py
 
-        
+
 #### 01.12 189. Allowing users to comment
+
+        modified:   app/admin.py
+        new file:   app/forms.py
+        new file:   app/migrations/0004_comments.py
+        new file:   app/migrations/0005_alter_post_tags.py
+        renamed:    app/migrations/0004_alter_post_tags.py -> app/migrations/_0004_alter_post_tags.py
+        modified:   app/models.py
+        modified:   app/templates/app/post.html
+        modified:   app/views.py
+
+        
 #### 01.13 190. Rendering comments
 #### 01.14 191. Fixing the submit issue on refresh
 #### 01.15 192. Building replies
