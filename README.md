@@ -65,6 +65,12 @@ Github link: https://github.com/gurnitha/django-compile-blog-comment-system
 
         
 #### 01.9 186. Building the home page
+
+        new file:   app/templates/app/index.html
+        modified:   app/urls.py
+        modified:   app/views.py
+
+        
 #### 01.10 187. Building Tags
 #### 01.11 188. Recording views
 #### 01.12 189. Allowing users to comment
